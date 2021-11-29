@@ -55,21 +55,21 @@
                                 <div class="content">
                                     {% if country_code and coordinate and temp and pressure and humidity %}
                                     <p>
-                                        <span class="title">{{country_code}}</span>
+                                        <span class="title"> <span>city:</span> {{city}}</span>
                                         <br>
-                                        <span class="subtitle">{{coordinate}}</span>
+                                        <span class="subtitle"><span>coordinate:</span>{{coordinate}}</span>
                                         <br>
-                                        <span class="subtitle">{{temp}}</span>
+                                        <span class="subtitle"><span>temperature:</span>{{temp}}</span>
                                         <br>
-                                        <span class="subtitle">{{pressure}}</span>
+                                        <span class="subtitle"><span>pressure:</span>{{pressure}}</span>
                                         <br>
-                                        <span class="subtitle">{{humidity}}</span>
+                                        <span class="subtitle"><span>humidity:</span>{{humidity}}</span>
                                         <br>
-                                        <span class="subtitle">{{main}}</span>
-                                        <br>
+ 
+                                        
                                         
                                     
-                                        {{description}}
+                                    
 
                                         {%endif%}
                                     </p>
